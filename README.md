@@ -14,6 +14,9 @@ To gain a better understanding of the data, I started with exploratory data anal
 
 One of the key findings from the EDA was the significant impact of customer age on late payments. This observation served as an important factor for subsequent analysis and feature engineering.
 
+<img width="528" alt="Screen Shot 2023-07-06 at 8 19 34 AM" src="https://github.com/NazaninFaghih/Latepayment_prediction/assets/65536921/9aef24c4-1acd-4edc-9857-714befd2a4ca">
+
+
 ## Feature Engineering
 
 To extract meaningful information from the dataset, I performed feature engineering. This process involved transforming and creating new features based on domain knowledge and data insights. In this project, I used statistical importance and random forest importance techniques to select the most relevant features and discard less significant ones.
@@ -36,11 +39,17 @@ After training and testing the models, I evaluated their performance using appro
 
 Upon comparing the results, the random forest model exhibited the highest performance among the three algorithms. This model was selected as the final model for further analysis.
 
+<img width="395" alt="Screen Shot 2023-07-06 at 8 18 21 AM" src="https://github.com/NazaninFaghih/Latepayment_prediction/assets/65536921/593dfb14-0a63-48a6-8705-0c6d78833b83">
+
+
 ## Partial Dependence Plots
 
 To gain insights into the relationship between late payments and different features, I utilized partial dependence plots. These plots visualize the impact of a single feature on the model's predictions while holding other features constant.
 
 By interpreting these plots, I could understand the effects of different factors on late payments and extract actionable insights.
+
+![pic3_new](https://github.com/NazaninFaghih/Latepayment_prediction/assets/65536921/59c86b03-ee11-430a-bd4b-63781cb77bda)
+
 
 ## Conclusion
 
